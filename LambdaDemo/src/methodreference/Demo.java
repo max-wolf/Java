@@ -40,12 +40,7 @@ public class Demo {
                 add(new Person("John", LocalDate.of(2003, 2, 25)));
             }
         };
-        class A<T extends Person> extends HashSet<T> {
-            public A () {
-                add(new Person("Clark", LocalDate.of(2003, 3, 12)));
-            }
-        };
-        Set<Person> roster = new A<>();
+
         Set<Person> set = transferElements(sp, HashSet<Person>::new);
         System.out.println(set);
     }
