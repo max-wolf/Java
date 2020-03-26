@@ -1,4 +1,4 @@
-package org.ptkl.lambda.methodreference;
+package org.ptkl.lambda.methodreference.classref;
 
 import java.time.LocalDate;
 
